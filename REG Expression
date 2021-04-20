@@ -1,0 +1,10 @@
+# Feb.8 
+###### Started over with Surgeon General's Report 
+Find `##` Replace Null
+To remove the notations of pages from Hathi Trust plain text downloads. 
+Find <0x0c> Replace Null. 
+To remove Hathi Trust plain text formatting breaks. 
+To remove line breaks did the following: 
+•	Find ([a-z]) ?\n(?=[a-z]) Replace \1space
+•	Find ([a-z]) ?\n(?=[A-Z]) Replace \1space
+•	Find ([a-z])- ?\n(?=[a-z]) Replace \1 Realized in my practice attempts before hitting replace all that this would also capture and misspell yellow-fever instances as well. Took entirely too many attempts but figured out that Find [w]-\n and Replace w- first would solve this problem. Only made one mistake to discover that Find [y]-\n and Replace y- would take care of the written numbers. Easily able then to fix scarlet-fever, enteric-fever, whopping-cough and small-pox. 
